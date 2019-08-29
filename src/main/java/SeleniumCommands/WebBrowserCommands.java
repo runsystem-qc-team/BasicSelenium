@@ -9,6 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class WebBrowserCommands {
 	public static void main(String[] args) throws InterruptedException {
+
 		String driverExecutablePath = "D:\\eclipse-workspace\\AutomationTraining\\src\\test\\resources\\executables\\chromedriver.exe";
 		
 		System.setProperty("webdriver.chrome.driver", driverExecutablePath);
