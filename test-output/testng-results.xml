@@ -2,24 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7388" started-at="2019-08-22T08:09:33Z" finished-at="2019-08-22T08:09:40Z">
+  <suite name="Default suite" duration-ms="15385" started-at="2019-09-19T08:48:23Z" finished-at="2019-09-19T08:48:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7388" started-at="2019-08-22T08:09:33Z" finished-at="2019-08-22T08:09:40Z">
-      <class name="thuynt3.Exercise_Day_07">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:thuynt3.Exercise_Day_07@604ed9f0]" name="beforeClass" is-config="true" duration-ms="6561" started-at="2019-08-22T15:09:33Z" finished-at="2019-08-22T15:09:39Z">
+    <test name="Default test" duration-ms="15385" started-at="2019-09-19T08:48:23Z" finished-at="2019-09-19T08:48:38Z">
+      <class name="com.gmo.training.pom.Test99GuruLogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gmo.training.pom.Test99GuruLogin@91161c7]" name="setup" is-config="true" duration-ms="12569" started-at="2019-09-19T15:48:23Z" finished-at="2019-09-19T15:48:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="Exercise_01()[pri:0, instance:thuynt3.Exercise_Day_07@604ed9f0]" name="Exercise_01" duration-ms="37" started-at="2019-08-22T15:09:39Z" finished-at="2019-08-22T15:09:39Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test_Home_Page_Appear_Correct()[pri:0, instance:com.gmo.training.pom.Test99GuruLogin@91161c7]" name="test_Home_Page_Appear_Correct" duration-ms="2789" started-at="2019-09-19T15:48:36Z" finished-at="2019-09-19T15:48:38Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Exercise_01 -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:thuynt3.Exercise_Day_07@604ed9f0]" name="afterClass" is-config="true" duration-ms="773" started-at="2019-08-22T15:09:39Z" finished-at="2019-08-22T15:09:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- thuynt3.Exercise_Day_07 -->
+        </test-method> <!-- test_Home_Page_Appear_Correct -->
+      </class> <!-- com.gmo.training.pom.Test99GuruLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

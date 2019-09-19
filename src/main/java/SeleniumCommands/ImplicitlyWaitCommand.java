@@ -28,7 +28,7 @@ public class ImplicitlyWaitCommand {
 		// Launch the ToolsQA WebSite
 		driver.get(url);
 		
-		WebElement acceptButtonEle = driver.findElement(By.xpath("//*[@id=\"cookie_action_close_heade\"]"));
+		WebElement acceptButtonEle = driver.findElement(By.xpath("//*[@id=\"cookie_action_close_header\"]"));
 		
 		acceptButtonEle.click();
 		

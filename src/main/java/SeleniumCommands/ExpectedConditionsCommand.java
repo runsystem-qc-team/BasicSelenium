@@ -20,16 +20,20 @@ public class ExpectedConditionsCommand {
 		//Thread.sleep(1000);
 		// Storing the Application Url in the String variable
 		// String url = "http://www.shop.demoqa.com";
-		String url = "https://www.toolsqa.com/automation-practice-form/";
+		String url = "https://mailsac.com";
 
 		// Launch the ToolsQA WebSite
 		driver.get(url);
 		
-		//WebElement acceptButtonEle = driver.findElement(By.xpath("//*[@id=\"cookie_action_close_header\"]"));
+		WebElement accountELement = driver.findElement(By.xpath("//input[@placeholder='anything']"));
+		
+		accountELement.click();
+		
+		accountELement.sendKeys("abcd");
 		
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		 
-		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"cookie_action_close_header\"]")));
+		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@class='btn btn-primary']")));
 		
 		element.click();
 		
