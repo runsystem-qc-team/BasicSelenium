@@ -45,7 +45,7 @@ public class FluentWaitCommand {
 
 			public WebElement apply(WebDriver driver) {
 
-				return driver.findElement(By.xpath("//*[@id=\"cookie_action_close_header\"]"));
+				return driver.findElement(By.xpath("//*[@id=\"cookie_action_close_heade\"]"));
 
 			}
 		});

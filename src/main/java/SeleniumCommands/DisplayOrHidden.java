@@ -22,7 +22,6 @@ public class DisplayOrHidden {
 
 	public static void main(String[] args) throws Throwable {
 		String driverExecutablePath = "D:\\eclipse-workspace\\AutomationTraining\\src\\test\\resources\\executables\\geckodriver.exe";
-
 		System.setProperty("webdriver.gecko.driver", driverExecutablePath);
 		// Create a new instance of the FireFox driver
 		driver = new FirefoxDriver();
