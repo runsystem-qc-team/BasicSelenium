@@ -1,0 +1,41 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Test" verbose="1">
+	<!-- Start scenario Annotations -->
+	<!-- <test name="Annotations" enabled="true">
+		<parameter name="browser" value="NB" />
+		<classes>
+			<class name="com.gmo.training.testng.AnnotationExample">
+				<methods>
+					<include name="testCase1" />
+					<include name="testCase2" />
+				</methods>
+			</class>
+			<class name="com.gmo.training.testng.DependentExample">
+				<methods>
+					<include name="tc01LaunchURL" />
+					<include name="tc02VerifyLaunchPage" />
+				</methods>
+			</class>
+
+		</classes>
+	</test> -->
+	<!-- End scenario Annotations -->
+
+<!-- <test name="Guru 99 Test Demo">
+	<groups>
+		<run>
+			<include name="strong_ties" />
+		</run>
+	</groups>
+	<classes>
+		<class name="com.gmo.training.testng.GroupExample" />
+	</classes>
+</test> -->
+
+	<!-- <test name="Guru 99 Test Demo"> <classes> <class name="com.gmo.training.testng.DependentExample" 
+		/> </classes> </test> -->
+
+	<test name="Guru 99 Test Demo"> <classes> <class name="com.gmo.training.testng.PrioritizingExample" 
+		/> </classes> </test>
+</suite>
